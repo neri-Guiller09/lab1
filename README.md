@@ -39,13 +39,13 @@ venv\Scripts\activate     # On Windows
 
 Install dependencies:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 Running the Application
 
 Start the FastAPI server:
 
-uvicorn main:app --reload
+```uvicorn main:app --reload```
 
 Open your browser or use a tool like Postman to test the API at:
 
@@ -55,7 +55,7 @@ Replace {starting_number} with any integer value to compute its factorial.
 
 API Endpoint
 
-GET /factorial/{starting_number}
+```GET /factorial/{starting_number}```
 
 Request:
 
