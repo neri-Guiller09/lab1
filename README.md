@@ -1,7 +1,3 @@
-**FastAPI Factorial API**
-
-**Overview**
-
 This repository contains a simple API developed using FastAPI that computes the factorial of a given number. The API provides a single endpoint that takes an integer as input and returns the computed factorial. If the input value is 0, the API returns {"result": false}.
 
 Features
