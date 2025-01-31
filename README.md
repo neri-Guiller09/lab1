@@ -28,7 +28,10 @@ Steps
 
 1. Clone the repository:
 
-```git clone https://github.com/yourusername/your-repository.git cd your-repository```
+``` bash
+git clone https://github.com/yourusername/your-repository.git 
+cd your-repository
+```
 
 2. Create a virtual environment (optional but recommended):
 
@@ -61,20 +64,21 @@ Request:
 starting_number: Integer value whose factorial is to be computed.
 
 Response:
-
+``` bash
 If starting_number > 0:
 
 {
   "number": 5,
   "factorial": 120
 }
-
+```
+``` bash
 If starting_number == 0:
 
 {
   "result": false
 }
-
+```
 Dependencies
 
 This project requires the following dependencies, listed in requirements.txt:
