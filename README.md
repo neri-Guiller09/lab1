@@ -26,28 +26,27 @@ pip (Python package installer)
 
 Steps
 
-**Clone the repository:**
+1. Clone the repository:
 
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+```git clone https://github.com/yourusername/your-repository.git cd your-repository```
 
-Create a virtual environment (optional but recommended):
+2. Create a virtual environment (optional but recommended):
 
 python -m venv venv
 source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate     # On Windows
 
-**Install dependencies:**
+3. Install dependencies:
 
 ```pip install -r requirements.txt```
 
 Running the Application
 
-**Start the FastAPI server:**
+1. Start the FastAPI server:
 
 ```uvicorn main:app --reload```
 
-Open your browser or use a tool like Postman to test the API at:
+2. Open your browser or use a tool like Postman to test the API at:
 
 http://127.0.0.1:8000/factorial/{starting_number}
 
@@ -57,7 +56,7 @@ API Endpoint
 
 ```GET /factorial/{starting_number}```
 
-**Request:**
+Request:
 
 starting_number: Integer value whose factorial is to be computed.
 
@@ -90,7 +89,7 @@ You can test the API using the built-in Swagger UI provided by FastAPI:
 
 Open http://127.0.0.1:8000/docs in your browser.
 
-Try the GET /factorial/{starting_number} endpoint.
+Try the ```GET /factorial/{starting_number}``` endpoint.
 
 Author
 
