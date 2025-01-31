@@ -1,12 +1,12 @@
-FastAPI Factorial API
+**FastAPI Factorial API**
 
-Overview
+**Overview**
 
 This repository contains a simple API developed using FastAPI that computes the factorial of a given number. The API provides a single endpoint that takes an integer as input and returns the computed factorial. If the input value is 0, the API returns {"result": false}.
 
 Features
 
-Developed using FastAPI.
+**Developed using FastAPI.**
 
 Uses a while loop to compute the factorial.
 
@@ -14,7 +14,7 @@ Returns a JSON response with the factorial result.
 
 Handles edge cases like zero input.
 
-Installation
+**Installation**
 
 To set up and run this FastAPI application, follow these steps:
 
@@ -26,7 +26,7 @@ pip (Python package installer)
 
 Steps
 
-Clone the repository:
+**Clone the repository:**
 
 git clone https://github.com/yourusername/your-repository.git
 cd your-repository
@@ -37,13 +37,13 @@ python -m venv venv
 source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate     # On Windows
 
-Install dependencies:
+**Install dependencies:**
 
 ```pip install -r requirements.txt```
 
 Running the Application
 
-Start the FastAPI server:
+**Start the FastAPI server:**
 
 ```uvicorn main:app --reload```
 
@@ -57,7 +57,7 @@ API Endpoint
 
 ```GET /factorial/{starting_number}```
 
-Request:
+**Request:**
 
 starting_number: Integer value whose factorial is to be computed.
 
